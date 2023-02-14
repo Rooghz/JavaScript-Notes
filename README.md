@@ -7,7 +7,7 @@ console.log()
 
 ````
 
-** Primitive Data Types: **
+**Primitive Data Types:**
 
 * Number - let age = 22;
 * String - let firstName = "Ayan";
