@@ -1,7 +1,7 @@
 # JavaScript-Notes
 
-````Hi
-dhd
-rtjrtgj
+To Output Javascript code we can use - 
+
+````console.log
 ````
     
