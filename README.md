@@ -7,6 +7,17 @@ console.log()
 
 ````
 
+**Commenting:**
+
+````//Single line comment
+
+/*
+Multi
+Line
+Comment
+*/
+````
+
 **Primitive Data Types:**
 
 * Number - let age = 22;
