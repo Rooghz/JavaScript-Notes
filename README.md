@@ -1,6 +1,6 @@
 # JavaScript-Notes
 
-To Output Javascript code we can use - 
+**Output In Javascript:**
 
 ````
 console.log()
@@ -9,7 +9,8 @@ console.log()
 
 **Commenting:**
 
-````//Single line comment
+````
+//Single line comment
 
 /*
 Multi
