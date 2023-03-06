@@ -23,3 +23,14 @@ e <br/>
 l <br/>
 l <br/>
 o <br/>
+
+**String Methods**
+
+*charAt
+````
+let message = "hello";
+
+console.log(message.charAt(1));
+````
+e
+
