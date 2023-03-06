@@ -26,7 +26,7 @@ o <br/>
 
 **String Methods**
 
-*charAt
+**charAt
 ````
 let message = "hello";
 
