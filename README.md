@@ -65,6 +65,30 @@ Output - Number
 * Number to String - String(a);
 * Boolean - Boolean(a);
 
+**Nullish Coalescing**
+
+It gives the output when the value is Undefined or NULL.
+
+````
+let age = null;
+
+console.log(age ?? "Hi");
+
+Output - Hi
+````
+
+**Error Handling**
+
+````
+try{
+    some lines of code....
+ }
+catch(error){
+    console.log(error);
+    console.log("something else");
+````
+
+
 
 
 
