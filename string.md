@@ -143,3 +143,26 @@ How <br/>
 AreYou? <br/>
 HiHowAreYou? <br/>
 
+**trim()**
+
+str.trim() method is used to remove the white spaces from both the ends of the given string.
+
+Syntax:  
+
+str.trim()
+
+````
+function func() {
+    var str = "  Hello      ";
+    var st = str.trim();
+    console.log(st);
+}
+func();
+
+````
+Hello
+
+Note: Trim is used to remove white spaces only from the start and end of a string and not from in-between. 
+
+Also, we can use trimLeft() and trimRight() to remove whitespaces from the start and end of the string.
+
