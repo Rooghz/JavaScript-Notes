@@ -65,6 +65,7 @@ Output - Number
 * Number to String - String(a);
 * Boolean - Boolean(a);
 
+
 **Nullish Coalescing**
 
 It gives the output when the value is Undefined or NULL.
