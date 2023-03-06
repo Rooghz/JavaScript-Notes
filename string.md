@@ -115,4 +115,31 @@ func();
 ````
 hello
 
+**substring()**
+
+The substring() is an inbuilt function in JavaScript which is used to return the part of the given string from start index to end index. Indexing start from zero (0). 
+
+Syntax: 
+
+string.substring(Startindex, Endindex)
+
+````
+// Taking a string as variable
+var string = "HiHowAreYou?";
+a = string.substring(0, 5)
+b = string.substring(2, 5)
+c = string.substring(5)
+d = string.substring(0)
+
+// Printing new string which are
+// the part of the given string
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+````
+HiHow <br/>
+How <br/>
+AreYou? <br/>
+HiHowAreYou? <br/>
 
