@@ -92,7 +92,7 @@ catch(error){
     console.log("something else");
 ````
 
-**Functions**
+**Function**
 
 ````
 function greet(){
@@ -109,6 +109,36 @@ function greet(name){
 greet("Ayan");
 ````
 Welcome, Ayan!
+
+**Anonymous Function**
+
+Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript. However, for anonymous functions in JavaScript, we use only the function keyword without the function name.
+
+An anonymous function is not accessible after its initial creation, it can only be accessed by a variable it is stored in as a function as a value. An anonymous function can also have multiple arguments, but only one expression.
+
+The syntax below illustrates the declaration of anonymous function using normal declaration:
+
+````
+function() {
+    // Function Body
+ }
+````
+We may also declare anonymous function using arrow function technique which is shown below:
+
+````
+( () => {
+    // Function Body...
+} )();
+````
+````
+var greet = function () {
+    console.log("Welcome!");
+};
+ 
+greet();
+````
+Welcome!
+
 
 
 
