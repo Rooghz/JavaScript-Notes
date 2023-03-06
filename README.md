@@ -139,6 +139,28 @@ greet();
 ````
 Welcome!
 
+**Arrow Function**
+
+````
+const myFunction = (param1, param2,
+    .... paramN) => { // function code }
+const myFunction = (param) => { // function code }
+                      or 
+const myFunction = param => { // function code }  
+const myFunction = param => { return param*param }
+                      or 
+const myFunction = param => param*param
+
+````
+We can omit the {} parenthesis when there is only one statement and the JavaScript considers that statement as return value, also there is no need to write parenthesis () when there is only one parameter. The arrow function cannot contain the line break between the (params) and the arrow =>, Also there should not be any space between the = and > characters.  
+
+````
+const calculateSum = (x,y) => x + y;
+
+console.log(calculateSum(2,3));
+````
+5
+
 
 
 
