@@ -35,7 +35,7 @@ When JavaScript variables are declared, they have an initial value of undefined.
 
 **JavaScript Variables**
 
-Var - Re-declare it and Update the value.
-Let - Only Update the valuye.
-Const - We cannont redeclare or update the value.
+* Var - Re-declare it and Update the value.
+* Let - Only Update the valuye.
+* Const - We cannont redeclare or update the value.
     
