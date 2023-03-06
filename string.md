@@ -1,2 +1,2 @@
-#JavaScript String
+# JavaScript String
 
