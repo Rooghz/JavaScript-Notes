@@ -45,7 +45,17 @@ When JavaScript variables are declared, they have an initial value of undefined.
 let username = "Ayan";
 let age = 22;
 
-console.log(`Welcome ${username}, your age is ${age}`);
+console.log(`Welcome ${username}, your age is ${age}.`);
 ````
-**Output** -  Welcome Ayan, your age is 22
+**Output** -  Welcome Ayan, your age is 22.
+
+To Check Data Type - 
+
+````
+let age = 22;
+
+console.log(typeof age);
+
+Output - Number
+````
     
