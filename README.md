@@ -92,6 +92,23 @@ catch(error){
     console.log("something else");
 ````
 
+**Functions**
+
+````
+function greet(){
+    console.log("Welcome!");
+}
+greet();
+
+````
+Welcome!
+````
+function greet(name){
+    console.log(`Welcome, ${name}!`);
+}
+greet("Ayan");
+````
+Welcome, Ayan!
 
 
 
