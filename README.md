@@ -36,6 +36,15 @@ When JavaScript variables are declared, they have an initial value of undefined.
 **JavaScript Variables**
 
 * Var - Re-declare it and Update the value.
-* Let - Only Update the valuye.
+* Let - Only Update the value.
 * Const - We cannont redeclare or update the value.
+
+**Template Literal**
+
+````
+let username = "Ayan";
+let age = 22;
+
+console.log(`Welcome ${username}, your age is ${age}`);
+````
     
