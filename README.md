@@ -61,9 +61,9 @@ Output - Number
 
 **Type Conversion**
 
-String to Number - Number(x);
-Number to String - String(a);
-Boolean - Boolean(a);
+* String to Number - Number(x);
+* Number to String - String(a);
+* Boolean - Boolean(a);
 
 
 
