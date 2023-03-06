@@ -26,7 +26,7 @@ o <br/>
 
 **String Methods**
 
-**charAt**
+**charAt()**
 
 ````
 let message = "hello";
@@ -35,7 +35,7 @@ console.log(message.charAt(1));
 ````
 e
 
-**charCodeAt**
+**charCodeAt()**
 ````
 let message = "hello";
 
@@ -44,5 +44,75 @@ console.log(message.charCodeAt(1));
 101
 
 
+**indexOf()**
+
+indexOf() function finds the index of the first occurrence of the argument string in the given string. The value returned is 0-based. The syntax of the function is as follows: 
+
+str.indexOf(searchValue , index)
+
+````
+let message = "hello";
+
+console.log(message.indexOf("e"));
+````
+1
+
+If the search value is not present, it returns -1.
+
+**includes()**
+
+In JavaScript, includes() method determines whether a string contains the given characters within it or not. This method returns true if the string contains the characters, otherwise, it returns false. 
+
+string.includes(searchvalue, start)
+
+````
+var str = "Welcome.";
+var check = str.includes("Welcome");
+if(check){
+	console.log("present");
+}
+else{
+	console.log("not present");
+}
+````
+
+Output - 
+present
+
+````
+var str = "Welcome to Github.";
+var check = str.includes("o",11);
+console.log(check);
+````
+
+Output
+false
+
+In this case the second parameter is 11, so the search will take place from index 11, and since there is no 'o' after index 11, it returns false.
+
+If the computed index(starting index) i.e the position from which the search will begin is less than 0, the entire array will be searched. 
+
+**toUpperCase() and toLowerCase()**
+
+````
+function func() {
+    var str = 'ayan';
+    var string = str.toUpperCase();
+    console.log(string);
+}
+func();
+````
+AYAN
+
+````
+
+function func() {
+    var str = 'HELLO';
+    var string = str.toLowerCase();
+    console.log(string);
+}
+func();
+````
+hello
 
 
