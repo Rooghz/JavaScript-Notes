@@ -26,11 +26,23 @@ o <br/>
 
 **String Methods**
 
-**charAt
+**charAt**
+
 ````
 let message = "hello";
 
 console.log(message.charAt(1));
 ````
 e
+
+**charCodeAt**
+````
+let message = "hello";
+
+console.log(message.charCodeAt(1));
+````
+101
+
+
+
 
