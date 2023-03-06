@@ -47,4 +47,5 @@ let age = 22;
 
 console.log(`Welcome ${username}, your age is ${age}`);
 ````
+**Output** -  Welcome Ayan, your age is 22
     
