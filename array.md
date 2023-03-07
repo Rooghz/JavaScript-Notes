@@ -57,6 +57,8 @@ updated arr2- [ 1, 2, 3, 4 ] <br/>
 
 **push()**
 
+Add an element/multiple elements at the end of an array.
+
 ````
 let arr1 = [1,2,3];
 arr1.push(4);
@@ -73,6 +75,8 @@ console.log(arr1);
 [ 1, 2, 3, 4, 5, 6, 7, 8] <br/>
 
 **concat()**
+
+Add two/multiple arrays.
 
 ````
 let arr1 = [1,2,3];
@@ -94,5 +98,106 @@ let arr4 = arr1.concat(arr2,arr3);
 console.log(arr4);
 ````
 [1, 2, 3, 4, 5,6, 7, 8, 9]
+
+
+**pop()**
+
+Removes the last element.
+
+````
+let arr = ['html', 'css', 'js', 'react', 'angular'];
+
+let removedIteam = arr.pop();
+
+console.log(arr);
+console.log(removedIteam);
+
+removedIteam = arr.pop();
+
+console.log(arr);
+console.log(removedIteam);
+````
+
+[ 'html', 'css', 'js', 'react' ] <br/>
+angular <br/>
+[ 'html', 'css', 'js' ] <br/>
+react <br/>
+
+**slice()**
+
+Syntax:
+
+arr.slice(begin, end)
+
+It's like cutting a big cake and taking a slice but it creates a shallow copy and returns it. Nothing happens with the original array.
+
+````
+let arr = ['html', 'css', 'js', 'react', 'angular'];
+
+let removedIteam = arr.slice(1,4);
+
+console.log(arr);
+console.log(removedIteam);
+````
+
+[ 'html', 'css', 'js', 'react', 'angular' ] <br/>
+[ 'css', 'js', 'react' ] <br/>
+
+
+**splice()**
+
+It works like slice but it does with the original array.
+
+````
+let arr = ['html', 'css', 'js', 'react', 'angular'];
+
+let removedIteam = arr.splice(1,4);
+
+console.log(arr);
+console.log(removedIteam);
+````
+
+[ 'html' ] <br/>
+[ 'css', 'js', 'react', 'angular' ] <br/>
+
+
+**Add elements using Splice()**
+
+I have used 3 for specifying where it should start from, 0 for delete nothing and 'node' for add node. This will add 'node' before 'react'.
+
+````
+let arr = ['html', 'css', 'js', 'react', 'angular'];
+
+arr.splice(3,0, 'node');
+
+console.log(arr);
+````
+
+[ 'html', 'css', 'js', 'node', 'react', 'angular' ]
+
+**includes()**
+
+````
+let arr = ['html', 'css', 'js', 'react', 'angular'];
+
+let user = 'node';
+
+console.log(arr.includes(user));
+````
+
+false
+
+
+**sort()**
+
+````
+let arr = ['a', 'c', 's', 'r', 'b'];
+
+arr.sort();
+
+console.log(arr);
+````
+[ 'a', 'b', 'c', 'r', 's' ]
+
 
 
