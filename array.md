@@ -40,7 +40,7 @@ console.log('updated arr2-',arr2);
 
 ````
 
-[ 1, 2, 3 ]
-[ 1, 2, 3 ]
-updated arr1- [ 1, 2, 3 ]
-updated arr2- [ 1, 2, 3, 4 ]
+[ 1, 2, 3 ] <br/>
+[ 1, 2, 3 ] <br/>
+updated arr1- [ 1, 2, 3 ] <br/>
+updated arr2- [ 1, 2, 3, 4 ] <br/>
