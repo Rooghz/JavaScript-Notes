@@ -200,4 +200,31 @@ console.log(arr);
 [ 'a', 'b', 'c', 'r', 's' ]
 
 
+**reverse()**
+
+````
+let arr = [1,2,3,4,5,];
+
+arr.reverse();
+
+console.log(arr);
+````
+[ 5, 4, 3, 2, 1 ]
+
+
+**split()**
+
+````
+let string = "hello";
+let stringSpace = "hi how are you?"
+
+let x = string.split("");
+let y = stringSpace.split(" ");
+
+console.log(x);
+console.log(y);
+````
+[ 'h', 'e', 'l', 'l', 'o' ] <br/>
+[ 'hi', 'how', 'are', 'you?' ] <br/>
+
 
