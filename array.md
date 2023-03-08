@@ -28,7 +28,7 @@ Shallow copy: In the case of shallow copy when we copy the original object into 
 
 Both original object and cloned object internally point to the same referenced object. Since they point to the same memory address so if we changed the cloned object then changes would be reflected back to the original object.
 
-Spread Operator -
+**Spread Operator**
 
 Spread operator allows an iterable to expand in places where 0+ arguments are expected. It is mostly used in the variable array where there is more than 1 values are expected. It allows us the privilege to obtain a list of parameters from an array. Syntax of Spread operator is same as Rest parameter but it works completely opposite of it.
 
@@ -54,6 +54,19 @@ console.log('updated arr2-',arr2);
 [ 1, 2, 3 ] <br/>
 updated arr1- [ 1, 2, 3 ] <br/>
 updated arr2- [ 1, 2, 3, 4 ] <br/>
+
+````
+let arr1 = [1, 2, 3,];
+let arr2 = [6, 7, 8, ]
+
+let arr3 = [...arr1, 4, 5, ...arr2, 9, 10];
+
+console.log(arr3);
+
+````
+
+[1, 2, 3, 4,  5,6, 7, 8, 9, 10]
+
 
 **push()**
 
@@ -212,7 +225,7 @@ console.log(arr);
 [ 5, 4, 3, 2, 1 ]
 
 
-**split()**
+**split()** 
 
 ````
 let string = "hello";
@@ -226,5 +239,20 @@ console.log(y);
 ````
 [ 'h', 'e', 'l', 'l', 'o' ] <br/>
 [ 'hi', 'how', 'are', 'you?' ] <br/>
+
+
+
+**join()**
+
+````
+let string = ['a', 'b', 'c'];
+
+let x = string.join("");
+
+console.log(x);
+````
+
+abc
+
 
 
