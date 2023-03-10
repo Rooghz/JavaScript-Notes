@@ -17,3 +17,25 @@ console.log(obj["is admin"]);
 Ayan
 node
 true
+
+**Functions as Property**
+
+````
+let obj = {
+    name : "Ayan",
+    greetMessage : function(){
+        console.log("Welcome!")
+    },
+    bye(){
+        console.log("Bye bye!!")
+    }
+};
+
+obj.greetMessage();
+obj.bye();
+````
+
+Welcome!
+Bye bye!!
+
+
