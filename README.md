@@ -9,7 +9,7 @@ console.log()
 
 **Commenting:**
 
-````
+```
 //Single line comment
 
 /*
@@ -17,7 +17,7 @@ Multi
 Line
 Comment
 */
-````
+```
 
 **Primitive Data Types:**
 
@@ -163,7 +163,7 @@ const calculateSum = (x,y) => x + y;
 
 console.log(calculateSum(2,3));
 ````
-5
+> 5
 
 
 
