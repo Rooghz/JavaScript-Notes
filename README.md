@@ -2,10 +2,10 @@
 
 **Output In Javascript:**
 
-````
+```
 console.log()
 
-````
+```
 
 **Commenting:**
 
