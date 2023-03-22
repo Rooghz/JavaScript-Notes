@@ -52,7 +52,7 @@ for (let item in obj) {
 
 ```
 
-> name Ayan
+> name Ayan\
 age 22
 
 
