@@ -38,4 +38,21 @@ obj.bye();
 Welcome!
 Bye bye!!
 
+**For In**
+
+```
+const obj = {
+  name: "Ayan",
+  age: 22,
+};
+
+for (let item in obj) {
+  console.log(item, obj[item]);
+}
+
+```
+
+> name Ayan
+age 22
+
 
