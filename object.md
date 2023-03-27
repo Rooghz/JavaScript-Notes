@@ -127,10 +127,10 @@ console.log(p2);
 
 ?.
 
-*Syntax*
+*Syntax:*
 
 ````
-Syntax: 
+ 
 
 obj?.prop
 obj?.[expr]
