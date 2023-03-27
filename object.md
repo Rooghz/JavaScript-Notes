@@ -55,4 +55,24 @@ for (let item in obj) {
 > name Ayan\
 age 22
 
+**Deal With Copy**
+
+````
+const p1 = {
+  name: "Ayan",
+  age: 22,
+};
+
+let p2 = Object.assign({},p1);
+
+p2.name = "Sample";
+p1.age = 99;
+
+console.log(p1);
+console.log(p2);
+````
+
+> { name: 'Ayan', age: 99 }\
+{ name: 'Sample', age: 22 }
+
 
