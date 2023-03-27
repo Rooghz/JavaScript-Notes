@@ -161,3 +161,43 @@ console.log(p1.city?.no);
 > { name: 'Ayan', age: 22, city: { name: 'kOL', state: 'WB' } }\
 { name: 'Ashish', age: 22, city: { name: 'Delhi', state: 'WB' } }\
 undefined
+
+**Destructuring Object**
+
+````
+const num = {
+a: 1, 
+b: 2
+};  
+const {a, b} = num;  
+  
+console.log(a); // 1  
+console.log(b); // 2  
+````
+
+> Output\
+1\
+2\
+
+````
+const student = {name: 'Prabal', rollno: '5'};  
+const {name, rollno} = student;  
+console.log(name); 
+console.log(rollno); 
+````
+> Output:\
+Prabal\
+5\
+
+*We can assign a variable with a different name than the property of the object. You can see the illustration for the same as follows:*
+
+````
+const num = {x: 1, y: 2};  
+const {x: a, y: b} = num;  
+   
+console.log(a);   
+console.log(b); 
+````
+> Output:\
+1\
+2\
