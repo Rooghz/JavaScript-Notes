@@ -77,4 +77,26 @@ console.log(p2);
 > { name: 'Ayan', age: 99 }\
 { name: 'Sample', age: 22 }
 
+**Spread Operator**
+
+It will do Deep Copy.
+
+````
+const p1 = {
+  name: "Ayan",
+  age: 22,
+  city:{
+    name: "kOL",
+    state: "WB",
+  }
+};
+
+let p2 = {...p1};
+
+console.log(p1);
+console.log(p2);
+````
+> { name: 'Ayan', age: 22, city: { name: 'kOL', state: 'WB' } }\
+{ name: 'Ayan', age: 22, city: { name: 'kOL', state: 'WB' } }
+
 
