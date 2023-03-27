@@ -57,6 +57,8 @@ age 22
 
 **Deal With Copy**
 
+It's also a shallow copy and does not work with nested loop.
+
 ````
 const p1 = {
   name: "Ayan",
