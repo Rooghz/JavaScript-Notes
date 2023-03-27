@@ -122,3 +122,31 @@ console.log(p2);
 
 > { name: 'Ayan', age: 22, city: { name: 'kOL', state: 'WB' } }\
 { name: 'Ashish', age: 22, city: { name: 'Delhi', state: 'WB' } }
+
+**Optional Chaining**
+
+?.
+
+````
+const p1 = {
+  name: "Ayan",
+  age: 22,
+  city:{
+    name: "kOL",
+    state: "WB",
+  }
+};
+
+let p2 = {...p1, city: {...p1.city}};
+
+p2.name = "Ashish";
+p2.city.name = "Delhi";
+
+console.log(p1);
+console.log(p2);
+console.log(p1.city?.no);
+````
+
+> { name: 'Ayan', age: 22, city: { name: 'kOL', state: 'WB' } }\
+{ name: 'Ashish', age: 22, city: { name: 'Delhi', state: 'WB' } }\
+undefined
