@@ -177,7 +177,7 @@ console.log(b); // 2
 
 > Output\
 1\
-2\
+2
 
 ````
 const student = {name: 'Prabal', rollno: '5'};  
@@ -187,7 +187,7 @@ console.log(rollno);
 ````
 > Output:\
 Prabal\
-5\
+5
 
 *We can assign a variable with a different name than the property of the object. You can see the illustration for the same as follows:*
 
@@ -200,4 +200,4 @@ console.log(b);
 ````
 > Output:\
 1\
-2\
+2
