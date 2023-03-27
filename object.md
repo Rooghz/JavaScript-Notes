@@ -127,6 +127,17 @@ console.log(p2);
 
 ?.
 
+*Syntax*
+
+````
+Syntax: 
+
+obj?.prop
+obj?.[expr]
+arr?.[index]
+func?.(args)
+````
+
 ````
 const p1 = {
   name: "Ayan",
