@@ -201,3 +201,32 @@ console.log(b);
 > Output:\
 1\
 2
+
+**Call Method**
+
+````
+let user1 = {
+  name: "John",
+  age: 30,
+};
+
+let user2 = {
+  name: "ayan",
+  age: 99,
+};
+
+let user3 = {
+  name: "hi",
+  age: 999,
+};
+
+function sayHi() {
+  console.log(this.name);
+}
+
+sayHi.call(user1);
+sayHi.call(user2);
+````
+
+> John\
+ayan
