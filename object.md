@@ -259,3 +259,34 @@ sayHi.call(user2);
 
 > John B.Tech-EE 2021\
 ayan undefined undefined
+
+**Apply Method**
+
+*You have to send arguements as an array so just Use [] while providing aruegements*
+
+````
+let user1 = {
+  name: "John",
+  age: 30,
+};
+
+let user2 = {
+  name: "ayan",
+  age: 99,
+};
+
+let user3 = {
+  name: "hi",
+  age: 999,
+};
+
+function sayHi(degree, year) {
+  console.log(this.name, degree, year);
+}
+
+sayHi.apply(user1, ["B.Tech-EE", 2021]);
+sayHi.apply(user2, ["B.Tech"]);
+````
+
+> John B.Tech-EE 2021\
+ayan B.Tech undefined
