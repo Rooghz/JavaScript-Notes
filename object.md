@@ -290,3 +290,33 @@ sayHi.apply(user2, ["B.Tech"]);
 
 > John B.Tech-EE 2021\
 ayan B.Tech undefined
+
+**Bind Method**
+
+Bind is used to return!
+
+```
+let user1 = {
+  name: "John",
+  age: 30,
+};
+
+let user2 = {
+  name: "ayan",
+  age: 99,
+};
+
+let user3 = {
+  name: "hi",
+  age: 999,
+};
+
+function sayHi(degree, year) {
+  console.log(this.name, degree, year);
+}
+
+let result = sayHi.bind(user2, "B.Tech-EE", 2021);
+result();
+```
+
+> ayan B.Tech-EE 2021
