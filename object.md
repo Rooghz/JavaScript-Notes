@@ -230,3 +230,32 @@ sayHi.call(user2);
 
 > John\
 ayan
+
+**Passing Multilple Arguements with Call**
+
+````
+let user1 = {
+  name: "John",
+  age: 30,
+};
+
+let user2 = {
+  name: "ayan",
+  age: 99,
+};
+
+let user3 = {
+  name: "hi",
+  age: 999,
+};
+
+function sayHi(degree, year) {
+  console.log(this.name, degree, year);
+}
+
+sayHi.call(user1, "B.Tech-EE", 2021);
+sayHi.call(user2);
+````
+
+> John B.Tech-EE 2021\
+ayan undefined undefined
